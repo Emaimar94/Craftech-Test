@@ -29,4 +29,4 @@ jobs:
       with: 
         context: ./Prueba 3
         push: true
-        tags: EAimar/Test:${{ github.run_number }}
+        tags: eaimar/Test:${{ github.run_number }}
