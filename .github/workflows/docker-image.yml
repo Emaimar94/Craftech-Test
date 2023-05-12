@@ -27,6 +27,6 @@ jobs:
     - name: Build and push Docker hub
       uses: docker/build-push-action@v3.2.0
       with: 
-        context: ./prueba3
+        context: ./Prueba 3
         push: true
         tags: EAimar/Test:${{ github.run_number }}
