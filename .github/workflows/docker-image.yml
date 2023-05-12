@@ -29,4 +29,4 @@ jobs:
       with: 
         context: ./Prueba 3
         push: true
-        tags: edockeruser/prueba:latest, edockeruser/prueba:${{ github.run_number }}
+        tags: edockeruser/test:${{ github.run_number }}
